@@ -1,0 +1,21 @@
+.page-header-mobile{
+    display: none;
+}
+
+@media(max-width: 767px){
+    .page-header-mobile {
+        display: inline;
+    }
+}
+
+.mobile-brand{
+    width: 100px;
+    height: 100px;
+    margin-right: 2%;
+}
+
+.menu-button{
+    background-color: antiquewhite;
+}
+
+

@@ -1,13 +1,16 @@
-.navBarBrand{
-    margin-left: 16px;
-    color : white;
-    text-decoration: none;
-    font-size: x-large;
+@media (max-width: 767px){
+    .page-header {
+        display: none;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-bottom: 1px solid #dddddd;
+    }
 }
 
-.navBar{
-    background-color: white
+.mobile-nav{
+    margin-top: 2%;
 }
+
 
 .centre {
     text-align: center;
@@ -21,17 +24,18 @@
     margin-right: 2%;
 }
 
-.brandName{
-    font-size: 40px;
-    color: burlywood;
-    font-style: italic
-
-}
-
 .app-nav{
     color: black;
     font-style: italic;
     font-size: 20px;
+}
+
+.app-nav-top{
+    color: black;
+    font-style: italic;
+    font-size: 17px;
+    margin: 0%;
+    padding: 0%
 }
 
 ul > li {
